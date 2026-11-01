@@ -482,6 +482,7 @@ body.photo-album-modal-open {
     font-family: 'Roboto Slab', serif;
     padding: 50px 0px 50px 0px;
     position: relative;
+    background-color: #E5E5E5;
 }
 
 .section-3-inner-col-left,
@@ -559,12 +560,7 @@ body.photo-album-modal-open {
 }
 
 .background-section-3 {
-    height: 300px;
-    width: 100%;
-    background-color: #E5E5E5;
-    position: absolute;
-    left: 0;
-    margin-top: -180px;
+    display: none;
 }
 
 @media (max-width: 768px) {
@@ -608,11 +604,6 @@ body.photo-album-modal-open {
         letter-spacing: 1px;
         font-size: 12px;
     }
-
-    .background-section-3 {
-        height: 230px;
-        width: 100%;
-    }
 }
 
 @media (max-width: 320px) {
@@ -627,11 +618,6 @@ body.photo-album-modal-open {
     .sec3-btn-right {
         padding: 5px 15px;
         font-size: 10px;
-    }
-
-    .background-section-3 {
-        height: 200px;
-        width: 100%;
     }
 }
 
@@ -715,6 +701,20 @@ body.photo-album-modal-open {
 
 .experience-section.scroll-reveal-ready.is-visible .section-4-right {
     animation: section-3-copy-enter 900ms cubic-bezier(0.2, 0.7, 0.2, 1) 180ms both;
+}
+
+#Experience {
+    background-color: #FFFFFF;
+}
+
+#Education {
+    background-color: #E5E5E5;
+}
+
+#Education .sec4-btn {
+    padding: 7px 22px;
+    letter-spacing: 1.5px;
+    font-size: 13px;
 }
 
 .experience-company-logo {
